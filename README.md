@@ -23,6 +23,8 @@ After that cd into the base directory of the project and run `npm install` to do
 
 In this project we chose to use React for a front-end and added minimal front-end code to get you going, but feel free to use any front-end stack you like.
 
+Make sure to install the react-bootstrap package by opening your terminal in your project's root directory and running the command `npm install react-bootstrap bootstrap` and restart your dev server.
+
 Unlike the lessons this week that used the Ethereum JSON-RPC API and the `ethers.js` library to communicate with the Ethereum network, the starter code in this project uses the [AlchemySDK](https://docs.alchemy.com/reference/alchemy-sdk-quickstart?a=eth-bootcamp). The AlchemySDK's core package wraps almost all of the `ethers.js` provider functionality that we learned about and should feel very familiar to you. 
 
 For example, the following `ethers.js` code
